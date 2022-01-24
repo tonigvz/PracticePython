@@ -1,6 +1,6 @@
-nums = [1,3,2,1]
+nums = [1, 3, 2, 1]
 num = []
-r = 2*len(nums)
+r = 2 * len(nums)
 print(r)
 
 while len(num) < r:
