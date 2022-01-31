@@ -3,7 +3,6 @@ def accum(s):
     res = ''
     for i, c in enumerate(s):
         for j in range(i+1):
-            print(i, c, j)
             if j == 0:
                 res += c.upper()
             else:
