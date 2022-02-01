@@ -1,7 +1,4 @@
 # https://www.codewars.com/kata/57ee31c5e77282c24d000024/train/python
-from collections import Counter
-
-
 def paul(x):
     kata, Petes_kata, life, eating = 5, 10, 0, 1
     countl, counte, countk, countp = 0, 0, 0, 0
