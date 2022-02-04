@@ -5,4 +5,4 @@ j = 0
 for i in indices:
     r[i] = s[j]
     j += 1
-print(r)
+print("".join(r))
