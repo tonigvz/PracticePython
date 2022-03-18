@@ -12,3 +12,9 @@ def sum_or_product(arr, n):
 
 
 print(sum_or_product([10, 41, 8, 16, 20, 36, 9, 13, 20], 3))
+"""
+array.sort()
+    n_sum  = sum(array[-n:])
+    n_prod = prod(array[:n])
+    return "sum" if n_sum > n_prod else "product" if n_sum < n_prod else "same"
+"""
