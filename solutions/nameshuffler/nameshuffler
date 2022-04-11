@@ -1,0 +1,6 @@
+#  https://www.codewars.com/kata/559ac78160f0be07c200005a/solutions/python
+def name_shuffler(str_):
+    return " ".join(i for i in reversed(str_.split()))
+
+
+print(name_shuffler("John Mcdas"))
